@@ -11,6 +11,16 @@ namespace SystemConfiguration.TeamConfiguration.OffensiveRosterConfiguration
     public class OffensiveLinePositions : ConfigurationElement
     {
         /// <summary>
+        /// A string attribute providing an identifier for build
+        /// transforms.
+        /// </summary>
+        [ConfigurationProperty("name", IsRequired = true)]
+        public string Name
+        {
+            get { return (string)base["name"]; }
+        }
+
+        /// <summary>
         /// A string attribute representing the player assigned to play
         /// starting Left Tackle position on the Offensive Line.
         /// <para />

@@ -20,7 +20,7 @@ namespace SystemConfiguration.TeamConfiguration
         /// </summary>
         private static void Init()
         {
-            _config = (Offense)ConfigurationManager.GetSection("OffenseConfig");
+            _config = (Offense)ConfigurationManager.GetSection("Offense");
             if (_config == null)
                 throw new ApplicationException("No OffenseConfig section in config");
 
