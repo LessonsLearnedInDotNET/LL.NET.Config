@@ -5,7 +5,7 @@
 This repository contains:
  + Custom configuration using System.Configuration base classes and attributes
  + Common configuration file hosted in a class library that is linked to another library
- + Slow cheetah transform
+ + [SlowCheetah](https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) transform
 
 Motivation
 
