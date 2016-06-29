@@ -7,6 +7,10 @@ This repository contains:
  + Common configuration file hosted in a class library that is linked to another library
  + [SlowCheetah](https://visualstudiogallery.msdn.microsoft.com/69023d00-a4f9-4a34-a6cd-7e854ba318b5) transform
 
+### Documentation
+
+See [wiki](https://github.com/LessonsLearnedInDotNET/LL.NET.Config/wiki) for explanation of examples and projects in detail.
+
 ### Motivation
 
 There have been many times where open source code examples or Stack Overflow submission have helped me during a struggle. These projects are my attempt to give back to the open source community. Feel free to participate.
